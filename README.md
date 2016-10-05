@@ -31,7 +31,7 @@ You can use the `git clone https://github.com/RDGuha/RG_E-mall.git` or you can d
 ### Testing
 I have used JUnit Test case to test this project. This project is also tested against different browser.
 
-### Built Tool
+### Build Tool
 * Maven 
 
 ### License
