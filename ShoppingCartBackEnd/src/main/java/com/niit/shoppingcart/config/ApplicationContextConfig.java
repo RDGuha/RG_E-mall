@@ -53,10 +53,7 @@ public class ApplicationContextConfig {
 		dataSource.setUsername("sa");
 		dataSource.setPassword("");
 
-		/*Properties connectionProperties = new Properties();
-		connectionProperties.setProperty("hibernate.hbm2ddl.auto", "create");
-		connectionProperties.setProperty("hibernate.show_sql", "true");
-		connectionProperties.setProperty("hibernate.dialect", "org.hibernate.dialect.H2Dialect");*/
+	
 
 		return dataSource;
 	}
@@ -64,7 +61,7 @@ public class ApplicationContextConfig {
 
 
 	private Properties getHibernateProperties() {
-		//System.out.println("h2");
+		
 		Properties properties = new Properties();
 		properties.put("hibernate.show_sql", "true");
 		
@@ -77,7 +74,7 @@ public class ApplicationContextConfig {
 	@Bean(name = "sessionFactory")
 	public SessionFactory getSessionFactory(DataSource dataSource) {
 		
-		//System.out.println("h3");
+		
 		
 		LocalSessionFactoryBuilder sessionBuilder = new LocalSessionFactoryBuilder(dataSource);
 		sessionBuilder.addProperties(getHibernateProperties());
@@ -88,7 +85,7 @@ public class ApplicationContextConfig {
 		sessionBuilder.addAnnotatedClasses(Cart.class);
 		sessionBuilder.addAnnotatedClass(Address.class);
 		
-		//sessionBuilder.addAnnotatedClass(Payment.class);
+		
 	
 		return sessionBuilder.buildSessionFactory();
 	}
@@ -97,11 +94,11 @@ public class ApplicationContextConfig {
 	@Bean(name = "transactionManager")
 	public HibernateTransactionManager getTransactionManager(SessionFactory sessionFactory) {
 		
-		//System.out.println("tran");
+		
 		
 		HibernateTransactionManager transactionManager = new HibernateTransactionManager(sessionFactory);
 		
-		//System.out.println("tran end");
+		
 		return transactionManager;
 	}
 
@@ -109,7 +106,7 @@ public class ApplicationContextConfig {
     @Bean(name = "categoryDAO")
     public CategoryDAO getCategoryDao(SessionFactory sessionFactory) 
 	{
-		//System.out.println("category");
+		
     	return new CategoryDAOImpl(sessionFactory);
     }
 	

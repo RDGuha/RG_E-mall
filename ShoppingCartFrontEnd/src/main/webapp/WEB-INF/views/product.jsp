@@ -76,7 +76,7 @@
 <!-- /start menu -->
 </head>
 
-<%@ include file="/WEB-INF/views/adminheader.jsp"%>
+
 					<br><br>
 	<center>
 		<div class="container">
@@ -224,7 +224,7 @@
 	
 	<br><br><br><br>
 	
-	<%@ include file="/WEB-INF/views/footer.jsp"%>
+	
 	
 </body>
 </html>

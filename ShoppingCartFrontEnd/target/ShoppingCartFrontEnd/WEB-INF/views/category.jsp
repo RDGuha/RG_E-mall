@@ -140,7 +140,7 @@
 	
 	<h3>Category List</h3>
 	<c:if test="${!empty categoryList}">
-		<table class="tg" border=1>
+		<table class="table" border="1px solid black">
 			<tr>
 				<th width="80">Category ID</th>
 				<th width="120">Category Name</th>

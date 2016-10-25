@@ -142,7 +142,7 @@
 	
 	<h3>Supplier List</h3>
 	<c:if test="${!empty supplierList}">
-		<table class="tg" border=1>
+		<table class="table" border="1px solid black">
 			<tr>
 				<th width="80">Supplier ID</th>
 				<th width="120">Supplier Name</th>

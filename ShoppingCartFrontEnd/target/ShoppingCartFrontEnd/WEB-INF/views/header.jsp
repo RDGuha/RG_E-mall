@@ -10,7 +10,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>RG e-mall</title>
-
+<script src="<c:url value="/resources/js/angular.min.js"/>" type="text/javascript"></script>
 </head>
 <body>
 	<!--header-->

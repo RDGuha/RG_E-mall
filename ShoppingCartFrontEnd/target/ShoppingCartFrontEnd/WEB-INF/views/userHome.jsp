@@ -80,15 +80,15 @@
 			<br>
 			<c:if test="${!empty productList}">
 			<h3>Product List</h3>
-				<table border="1px solid black">
+				<table border="1px solid black" class="table">
 					<tr>
 					
 						<th width="80">Product ID</th>
 						<th width="120">Product Name</th>
 						<th width="200">Product Description</th>
 						<th width="80">Price</th>
-						<!-- <th width="80">Product Category</th>
-						<th width="80">Product Supplier</th> -->
+						 <th width="80">Product Category</th>
+						<!--<th width="80">Product Supplier</th> -->
 						<th width="60">Product Details</th>
 						
 					</tr>

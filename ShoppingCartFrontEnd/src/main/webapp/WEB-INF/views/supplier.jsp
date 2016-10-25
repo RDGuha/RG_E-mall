@@ -76,7 +76,7 @@
 </head>
 <body>
 
-<%@ include file="/WEB-INF/views/adminheader.jsp"%>
+
 
 					<br><br>
 	<center><h1>Add a Supplier</h1>
@@ -164,7 +164,7 @@
 	</center>
 	<br><br><br><br>
 	
-	<%@ include file="/WEB-INF/views/footer.jsp"%>
+
 	
 </body>
 </html>

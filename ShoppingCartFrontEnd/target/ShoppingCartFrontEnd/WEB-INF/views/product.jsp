@@ -192,7 +192,7 @@
 			<h3>Product List</h3>
 			<br>
 			<c:if test="${!empty productList}">
-				<table border="1px solid black">
+				<table border="1px solid black" class="table">
 					<tr>
 						<th width="80">Product ID</th>
 						<th width="120">Product Name</th>
