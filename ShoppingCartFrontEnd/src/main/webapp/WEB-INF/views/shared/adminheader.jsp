@@ -77,16 +77,22 @@
 
 				<ul class="support">
 					<li><a href="mailto:guhard1@yahoo.com"><i
-							class="glyphicon glyphicon-envelope"> </i>guhard1@yahoo.com</a></li>
+							class="glyphicon glyphicon-envelope"> </i>rajdeepguha7@gmail.com</a></li>
 					<li><span><i class="glyphicon glyphicon-earphone"
-							class="tele-in"> </i>+91 810 242 8380</span></li>
+							class="tele-in"> </i>+91 965 833 6528</span></li>
 				</ul>
 				<ul class=" support-right">
-					<li><a href="#"><i
-							class="glyphicon glyphicon-user" class="men"> </i>Welcome :${pageContext.request.userPrincipal.name}</a></li>
-					<li><a href="/logout"><i
-							class="glyphicon glyphicon-lock" class="tele"> </i>Log Out
-							</a></li>
+					<c:choose>
+					<c:when test="${pageContext.request.userPrincipal.name==null}">
+						<li align="left"><a href="<c:url value="loginHere" />">  Login</a></li>
+						<li align="center"><a href="<c:url value="registerHere" />">
+								Register</a></li>
+					</c:when>
+					<c:when test="${pageContext.request.userPrincipal.name!=null}">
+						<li>Welcome :${pageContext.request.userPrincipal.name}</li>
+						<li align="right"><a href="<c:url value="/logout" />">logout</a></li>
+					</c:when>
+				</c:choose>
 				</ul>
 				<div class="clearfix"></div>
 			</div>
