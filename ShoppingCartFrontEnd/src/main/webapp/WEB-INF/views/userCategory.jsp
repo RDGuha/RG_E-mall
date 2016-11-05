@@ -49,51 +49,10 @@
 							</div>
 						</div>
 			
-			<%-- <a href="<c:url value='product/show/${product.id}' />">
-			<img id="image" alt="${product.name}" src="resources/productimages/${product.id}.jpg" title="${product.name}" width="40" height="40">
-			</a> --%>
-			
 			
 			</c:forEach>
 			
-			
-			
-		<%-- 		<center>
-					<table border="1px solid black">
-					<tr>
-					
-						<th width="80">Product ID</th>
-						<th width="120">Product Name</th>
-						<th width="200">Product Description</th>
-						<th width="80">Price</th>
-						
-						<th width="80">Product Supplier</th> 
-						<th width="60">Product Details</th>
-						
-					</tr>
-	<c:forEach items="${selectedCategory.products}" var="product">
-	<tr>
-							<td>${product.id}</td>
-							<td>${product.name}</td>
-							<td>${product.description}</td>
-							<td>${product.price}</td>
-							
-							<td>${product.supplier.name}</td> 
-							<td><a
-								href="<c:url value='product/show/${product.id}' />">show</a></td>
-							
-						</tr>
-		
-	</c:forEach>
-	</table>
-	</center> --%>
-	
-	
-<%-- <ul>
-			<li class="uppercase"><a
-				href="<c:url value='product/show/${product.id}' />">${product.name}</a></li>
 
-		</ul> --%>
 			</div>
 		</div>
 	</div>

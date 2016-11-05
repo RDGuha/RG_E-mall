@@ -44,13 +44,6 @@
 			aria-hidden="true"></span><span class="sr-only">Next</span></a>
 	</div>
 
-	<!---->
-	<!---->
-	<!---->
-	<!---->
-
-
-	<!--start-shoes-->
 	<div class="goggles">
 		<div class="container">
 			<c:forEach items="${categoryList}" begin="0" end="1" var="category">

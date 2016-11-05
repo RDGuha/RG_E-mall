@@ -12,8 +12,6 @@
 <title>RG e-mall</title>
 <link href="<c:url value="/resources/css/bootstrap.css"/>" rel="stylesheet"
 	type="text/css" media="all" />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<!-- <script src="resources/js/jquery.min.js"></script> -->
 <script src="<c:url value="/resources/js/jquery-1.11.2.min.js"/>" type="text/javascript"></script>
 
 <!-- Custom Theme files -->
@@ -64,6 +62,7 @@
 <link href="<c:url value="resources/css/memenu.css"/>" rel="stylesheet" type="text/css"
 	media="all" />
 <script type="text/javascript" src="<c:url value="resources/js/memenu.js"/>"></script>
+<script type="text/javascript" src="<c:url value="resources/js/angular.min.js"/>"></script>
 <script>
 	$(document).ready(function() {
 		$(".memenu").memenu();
@@ -79,9 +78,9 @@
 
 				<ul class="support">
 					<li><a href="mailto:guhard1@yahoo.com"><i
-							class="glyphicon glyphicon-envelope"> </i>guhard1@yahoo.com</a></li>
+							class="glyphicon glyphicon-envelope"> </i>rajdeepguha7@gmail.com</a></li>
 					<li><span><i class="glyphicon glyphicon-earphone"
-							class="tele-in"> </i>+91 810 242 8380</span></li>
+							class="tele-in"> </i>+91 965 833 6528</span></li>
 				</ul>
 				<ul class=" support-right">
 					<c:choose>
@@ -91,8 +90,8 @@
 								Register</a></li>
 					</c:when>
 					<c:when test="${pageContext.request.userPrincipal.name!=null}">
-						<li>Welcome :${pageContext.request.userPrincipal.name}</li>
-						<li align="right"><a href="<c:url value="/logout" />"> logout</a></li>
+						<li align="left">  Welcome :${pageContext.request.userPrincipal.name}</li>
+						<li align="center"><a href="<c:url value="/logout" />"> logout</a></li>
 					</c:when>
 				</c:choose>
 				</ul>

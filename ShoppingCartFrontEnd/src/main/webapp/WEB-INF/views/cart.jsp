@@ -21,7 +21,7 @@
 				<th align="left" width="120">Product Name</th>
 				<th align="left" width="80">Price</th>
 				<th align="left" width="200">Quantity</th>
-				<!-- <th align="left" width="200">Total</th> -->
+				
 				<th align="left" width="200">Status</th>
 				<th align="left" width="200">Delete</th>
 				<th align="left" width="200">Proceed</th>
@@ -32,7 +32,7 @@
 					<td align="left">${cart.productName}</td>
 					<td align="left">${cart.price}</td>
 					<td align="left">${cart.quantity}</td>
-					<%-- <td align="left">${cart.total}</td> --%>
+					
 					<td align="left">${cart.status}</td>
 					<td align="left"><a
 						href="<c:url value='cart/delete/${cart.id}' />">Delete

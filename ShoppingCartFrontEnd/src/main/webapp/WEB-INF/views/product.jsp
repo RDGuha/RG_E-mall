@@ -75,7 +75,7 @@
 						<td align="left"><form:label path="supplier">
 								Supplier
 							</form:label></td>
-						<%-- <td><form:input path="supplier.name" required="true" /></td> --%>
+						
 						<td align="left"><form:select path="supplier.name"
 								items="${supplierList}" itemValue="name" itemLabel="name" /></td>
 					</tr>

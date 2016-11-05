@@ -15,21 +15,29 @@
 					<ul class="flexiselDemo3 nbs-flexisel-ul"
 						style="left: -253.6px; display: block;">
 						<li onclick="location.href='#';" class="nbs-flexisel-item"
-							style="width: 253.6px;"><img src="resources/images/c3.png" alt="" /></li>
+							style="width: 253.6px;"><img src="resources/images/c3.png"
+							alt="" /></li>
 						<li onclick="location.href='#';" class="nbs-flexisel-item"
-							style="width: 253.6px;"><img src="resources/images/c4.jpg" alt="" /></li>
+							style="width: 253.6px;"><img src="resources/images/c4.jpg"
+							alt="" /></li>
 						<li onclick="location.href='#';" class="nbs-flexisel-item"
-							style="width: 253.6px;"><img src="resources/images/c1.png" alt="" /></li>
+							style="width: 253.6px;"><img src="resources/images/c1.png"
+							alt="" /></li>
 						<li onclick="location.href='#';" class="nbs-flexisel-item"
-							style="width: 253.6px;"><img src="resources/images/c2.jpg" alt="" /></li>
+							style="width: 253.6px;"><img src="resources/images/c2.jpg"
+							alt="" /></li>
 						<li onclick="location.href='#';" class="nbs-flexisel-item"
-							style="width: 253.6px;"><img src="resources/images/c3.png" alt="" /></li>
+							style="width: 253.6px;"><img src="resources/images/c3.png"
+							alt="" /></li>
 						<li onclick="location.href='#';" class="nbs-flexisel-item"
-							style="width: 253.6px;"><img src="resources/images/c4.jpg" alt="" /></li>
+							style="width: 253.6px;"><img src="resources/images/c4.jpg"
+							alt="" /></li>
 						<li onclick="location.href='#';" class="nbs-flexisel-item"
-							style="width: 253.6px;"><img src="resources/images/c1.png" alt="" /></li>
+							style="width: 253.6px;"><img src="resources/images/c1.png"
+							alt="" /></li>
 						<li onclick="location.href='#';" class="nbs-flexisel-item"
-							style="width: 253.6px;"><img src="resources/images/c2.jpg" alt="" /></li>
+							style="width: 253.6px;"><img src="resources/images/c2.jpg"
+							alt="" /></li>
 					</ul>
 					<div class="nbs-flexisel-nav-left" style="top: 21.5px;"></div>
 					<div class="nbs-flexisel-nav-right" style="top: 21.5px;"></div>
@@ -70,65 +78,43 @@
 	</div>
 	<!--//end-bottom-->
 	<!--start-footer-->
+	<center>
 	<div class="footer">
 		<div class="container">
-			<div class="footer-top">
-				<div class="col-md-2 footer-left">
-					<h3>About Us</h3>
-					<ul>
-						<li><a href="#">Who We Are</a></li>
-						<li><a href="#">Contact Us</a></li>
+			
+				<div class="footer-top">
+					<div class="col-md-4 footer-center">
+						<h3>About Us</h3>
+						<ul>
+							<li><a href="<c:url value="home"/>">Home</a></li>
+							<li><a href="<c:url value="aboutUs" />">Who We Are</a></li>
+							<li><a href="<c:url value="contactUs" />">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 footer-center">
+						<h3>Account</h3>
+						<ul>
+							<li><a href="loginHere">Login</a></li>
+							<li><a href="registerHere">Register</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 footer-center">
+						<h3>Shopping</h3>
+						<ul>
+							<li><a href="<c:url value='category/show/CG01' />">Mobiles</a></li>
+							<li><a href="<c:url value='category/show/CG02' />">Laptops</a></li>
+							<li><a href="<c:url value='category/show/CG03' />">Digital
+									Camera</a></li>
+						
+						</ul>
+					</div>
 
-						<li><a href="#">In The News</a></li>
-						<li><a href="#">Carrers</a></li>
-					</ul>
+					<div class="clearfix"></div>
 				</div>
-				<div class="col-md-2 footer-left">
-					<h3>Account</h3>
-					<ul>
-						<li><a href="loginHere">Your Account</a></li>
-						<li><a href="#">Personal Information</a></li>
-						<li><a href="#">Addresses</a></li>
-
-						<li><a href="#">Track your order</a></li>
-					</ul>
-				</div>
-				<div class="col-md-2 footer-left">
-					<h3>Shopping</h3>
-					<ul>
-						<li><a href="#">Mobiles</a></li>
-						<li><a href="#">Tablets</a></li>
-						<li><a href="#">Laptops</a></li>
-						<li><a href="#">Digital Camera</a></li>
-						<li><a href="#">Accessories</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-2 footer-left lost">
-					<h3>Accessories</h3>
-					<ul>
-						<li><a href="#">Headphones</a></li>
-						<li><a href="#">Data Storage</a></li>
-						<li><a href="#">Power Bank</a></li>
-						<li><a href="#">Covers</a></li>
-						<li><a href="#">Batteries</a></li>
-					</ul>
-				</div>
-				<div class="col-md-2 footer-left ">
-					<h3>Top Brands</h3>
-					<ul>
-						<li><a href="#">Apple</a></li>
-						<li><a href="#">Motorola</a></li>
-						<li><a href="#">Samsung</a></li>
-						<li><a href="#">HP</a></li>
-						<li><a href="#">Lenovo</a></li>
-					</ul>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-
+			
 		</div>
 	</div>
+	</center>
 	<ul class="socials">
 		<li><a class="soc1" href="#"></a></li>
 		<li><a class="soc2" href="#"></a></li>
@@ -146,14 +132,6 @@
 	<!--start-smooth-scrolling-->
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
-			var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-			};
-			 */
 
 			$().UItoTop({
 				easingType : 'easeOutQuart'
@@ -161,14 +139,6 @@
 
 		});
 		$(document).ready(function() {
-			/*
-			var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear' 
-			};
-			 */
 			$().UItoTop({
 				easingType : 'easeOutQuart'
 			});
@@ -180,8 +150,6 @@
 	<a href="#home" id="toTop" class="scroll" style="display: block;">
 		<span id="toTopHover" style="opacity: 1;"> </span>
 	</a>
-	<!---->
 
-	<!---->
 </body>
 </html>
