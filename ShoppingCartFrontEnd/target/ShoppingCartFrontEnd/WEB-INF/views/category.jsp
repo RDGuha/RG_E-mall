@@ -77,7 +77,7 @@
 </head>
 <body>
 
-<%@ include file="/WEB-INF/views/adminheader.jsp"%>
+
 
 	<center><h1>Add a Category</h1>
 <br><br>
@@ -162,7 +162,7 @@
 	</center>
 	<br><br><br><br>
 	
-	<%@ include file="/WEB-INF/views/footer.jsp"%>
+	
 	
 </body>
 </html>

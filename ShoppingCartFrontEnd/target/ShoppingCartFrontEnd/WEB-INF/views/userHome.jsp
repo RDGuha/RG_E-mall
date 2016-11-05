@@ -70,7 +70,7 @@
 <!-- /start menu -->
 </head>
 <body>
-<%@ include file="/WEB-INF/views/header.jsp"%>
+<%@ include file="/WEB-INF/views/shared/header.jsp"%>
 
 
 <div class="container">
@@ -128,7 +128,7 @@
 		</c:if>
 	</div>
 	
-	<%@ include file="/WEB-INF/views/footer.jsp"%>
+	<%@ include file="/WEB-INF/views/shared/footer.jsp"%>
 	
 
 </body>

@@ -71,7 +71,7 @@
 <!-- /start menu -->
 </head>
 <body>
-<%@ include file="/WEB-INF/views/header.jsp"%>
+<%@ include file="/WEB-INF/views/shared/header.jsp"%>
 
 	
 		<div id="AdminPage">
@@ -121,7 +121,7 @@
 	</div>
 
 
-	<%@ include file="/WEB-INF/views/footer.jsp"%>
+	<%@ include file="/WEB-INF/views/shared/footer.jsp"%>
 
 </body>
 </html>
